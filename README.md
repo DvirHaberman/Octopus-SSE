@@ -7,7 +7,7 @@ Your goal is to implement a mechanisem for transmitting a database table update 
 The chain should look like this:
 
 MySQL db table is updated &#10140; a trigger is activated &#10140; python script is launched&#10140; an SSE is sent &#10140; the SSE is received be the web clients &#10140; some control is updated
-### Implementation tasks:
+### Implementation tasks: (Mark completed)
 - [ ] Set up a mysql database - Local (with MySQL community edition) or remote on some host (Heroku/pythonanywhere)
 - [ ] Create some simple db table
 - [ ] Set up a simple web sever with the FLASK python framework - Local or remote
